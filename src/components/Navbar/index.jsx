@@ -57,8 +57,8 @@ const Navbar = () => {
             </div>) : 
             // Desktop Size
             (
-                <div className=" flex items-center px-24 py-4 justify-between fixed top-0 w-full bg-white shadow-md z-30">
-                    <img src={Logo} alt="logo-bob"  className="w-24"/>
+                <div className=" flex items-center px-24 py-3 justify-between fixed top-0 w-full bg-white shadow-md z-30">
+                    <img src={Logo} alt="logo-bob"  className="w-20"/>
                     <ul className="flex items-center space-x-8">
                         {
                             links.map((val, idx) => (

@@ -17,3 +17,10 @@ p, li, button{
 h1{
   @apply text-[45px]
 }
+
+.bg-package{
+  background: url('./assets/bg-package.webp');
+  background-size: cover;
+  background-position: center;
+  @apply mx-24 h-[35rem] rounded-2xl
+}

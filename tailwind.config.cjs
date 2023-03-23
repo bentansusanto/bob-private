@@ -9,5 +9,7 @@ module.exports = {
       'poppins' : ['Poppins']
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }

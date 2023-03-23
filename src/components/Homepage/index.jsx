@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import HeroSection from './Section/HeroSection'
 import PackageSection from './Section/PackageSection'
+import ServiceSection from './Section/ServiceSection';
 
 const mediaQuery = window.matchMedia('(max-width: 600px)');
 
@@ -22,7 +23,8 @@ const Homepage = () => {
   return (
     <div>
         <HeroSection matches={matches}/>
-        <PackageSection/>
+        <PackageSection matches={matches}/>
+        <ServiceSection/>
     </div>
   )
 }
