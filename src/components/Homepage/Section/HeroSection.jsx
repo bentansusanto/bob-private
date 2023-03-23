@@ -12,7 +12,7 @@ const HeroSection = ({ matches }) => {
   return (
     <div id="about">
       {matches ? (
-        <div className=" relative block bg-gradient-to-r from-[#0066FF] to-[#61CCFA] w-screen h-screen px-5 pt-24">
+        <div className=" relative block bg-gradient-to-r from-[#0066FF] to-[#61CCFA] w-screen h-screen px-5 pt-20">
           <div>
             <img src={Patern} alt="pattern" className="w-10" />
             <h1 className="mt-10 font-bold text-white text-[35px]">
@@ -23,7 +23,7 @@ const HeroSection = ({ matches }) => {
           <img
             src={BgHeroSection}
             alt="bg-hero"
-            className="absolute bottom-0 w-[22rem] mx-auto"
+            className="absolute bottom-0 w-[90%] mx-auto"
           />
         </div>
       ) : (
