@@ -64,9 +64,11 @@ const PackageSection = ({ matches }) => {
                       </div>
                     ))}
                   </div>
-                  <button className="bg-[#F59300] py-2.5 rounded-full w-[92%] absolute bottom-5 text-white shadow-lg px-5">
-                    Pesan Sekarang
-                  </button>
+                  <div className="absolute bottom-5 w-full">
+                    <button className="bg-[#F59300] py-2.5 rounded-full w-[92%] text-white shadow-lg px-5">
+                      Pesan Sekarang
+                    </button>
+                  </div>
                 </div>
               ))}
             </div>
