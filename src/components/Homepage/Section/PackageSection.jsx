@@ -12,7 +12,9 @@ const PackageSection = ({ matches }) => {
   // const
   return (
     <section className="mt-32" id="package">
-      {matches ? (
+      {matches ? 
+      // Mobile View
+      (
         <div className="block bg-package-mobile p-5">
           <div className="text-white">
             <h4 className="text-[24px] font-bold">

@@ -8,7 +8,8 @@ const links = [
     {section : 'Home', link: '/'},
     {section : 'About Us', link: '/#about'},
     {section : 'Our Package', link: '/#package'},
-    {section : 'Our Service', link: '/#service'}
+    {section : 'Our Service', link: '/#service'},
+    {section : 'Mata Pelajaran', link: '/#matapelajaran'}
 ]
 
 const mediaQuery = window.matchMedia('(max-width: 600px)');
