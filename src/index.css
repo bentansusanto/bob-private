@@ -11,7 +11,7 @@ body{
 }
 
 p, li, button{
-  @apply text-[16px]
+  @apply md:text-[16px] text-[14px] 
 }
 
 h1{
@@ -22,5 +22,11 @@ h1{
   background: url('./assets/bg-package.webp');
   background-size: cover;
   background-position: center;
-  @apply mx-24 h-[35rem] rounded-2xl
+}
+
+.bg-package-mobile{
+  background: url('./assets/bg-package-mobile.webp');
+  background-size: cover;
+  background-position: center;
+  @apply h-screen w-screen
 }

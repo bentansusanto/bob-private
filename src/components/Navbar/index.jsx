@@ -7,7 +7,8 @@ import {IoClose} from 'react-icons/io5'
 const links = [
     {section : 'Home', link: '/'},
     {section : 'About Us', link: '/#about'},
-    {section : 'Our Package', link: '/#package'}
+    {section : 'Our Package', link: '/#package'},
+    {section : 'Our Service', link: '/#service'}
 ]
 
 const mediaQuery = window.matchMedia('(max-width: 600px)');

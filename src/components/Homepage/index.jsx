@@ -24,7 +24,7 @@ const Homepage = () => {
     <div>
         <HeroSection matches={matches}/>
         <PackageSection matches={matches}/>
-        <ServiceSection/>
+        <ServiceSection matches={matches}/>
     </div>
   )
 }
